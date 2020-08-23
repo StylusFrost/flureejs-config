@@ -29,15 +29,6 @@ Add `tsconfig.prod.json`:
 }
 ```
 
-Add `tsconfig.browser.json`:
-
-```json
-{
-  "extends": "@flureejs/config-typescript/tsconfig.browser.json",
-  "include": ["src/**/*.ts"]
-}
-```
-
 Use CLI commands above in your `package.json`:
 
 ```json
@@ -45,16 +36,4 @@ Use CLI commands above in your `package.json`:
     "tsc":   "flureejs-config-ts-compile",
     "build": "flureejs-config-ts-build"
   }
-```
-
-The default production target is ES2017. To support shipping the ES5 target for browsers, add to your `package.json`:
-
-```json
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "browser": "dist.browser/index.js",
-  "files": [
-    "dist",
-    "dist.browser"
-  ]
 ```

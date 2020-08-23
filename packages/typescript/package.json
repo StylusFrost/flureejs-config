@@ -8,7 +8,6 @@
   "files": [
     "tsconfig.json",
     "tsconfig.prod.json",
-    "tsconfig.browser.json",
     "cli"
   ],
   "bin": {
