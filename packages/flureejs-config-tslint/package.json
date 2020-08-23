@@ -1,6 +1,6 @@
 {
   "name": "@flureejs/config-tslint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "tslint.json",
   "license": "MIT",
   "repository": "git@github.com:StylusFrost/flureejs-config.git",

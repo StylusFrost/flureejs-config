@@ -1,6 +1,6 @@
 {
   "name": "@flureejs/config-typescript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "tsconfig.json",
   "license": "MIT",
   "repository": "git@github.com:StylusFrost/flureejs-config.git",
