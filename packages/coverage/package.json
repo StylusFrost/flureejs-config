@@ -1,6 +1,6 @@
 {
   "name": "@flureejs/config-coverage",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "nyc.json",
   "license": "MIT",
   "repository": "git@github.com:StylusFrost/flureejs-config.git",
