@@ -1,0 +1,21 @@
+{
+  "name": "@flureejs/config-typescript",
+  "version": "0.1.0",
+  "main": "tsconfig.json",
+  "license": "MIT",
+  "repository": "git@github.com:StylusFrost/flureejs-config.git",
+  "author": "Pedro Miguel Díaz Peña <pm.diaz.pena@gmail.com>",
+  "files": [
+    "tsconfig.json",
+    "tsconfig.prod.json",
+    "tsconfig.browser.json",
+    "cli"
+  ],
+  "bin": {
+    "flureejs-config-ts-compile": "./cli/ts-compile.sh",
+    "flureejs-config-ts-build": "./cli/ts-build.sh"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

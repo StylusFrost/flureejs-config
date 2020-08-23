@@ -1,0 +1,21 @@
+{
+  "name": "@flureejs/config-tslint",
+  "version": "0.1.0",
+  "main": "tslint.json",
+  "license": "MIT",
+  "repository": "git@github.com:StylusFrost/flureejs-config.git",
+  "author": "Pedro Miguel Díaz Peña <pm.diaz.pena@gmail.com>",
+  "files": [
+    "tslint.json",
+    "cli"
+  ],
+  "bin": {
+    "flureejs-config-tslint": "./cli/tslint.sh",
+    "flureejs-config-tslint-fix": "./cli/tslint-fix.sh",
+    "flureejs-config-lint": "./cli/lint.sh",
+    "flureejs-config-lint-fix": "./cli/lint-fix.sh"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

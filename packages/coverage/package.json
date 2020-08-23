@@ -1,0 +1,18 @@
+{
+  "name": "@flureejs/config-coverage",
+  "version": "0.1.0",
+  "main": "nyc.json",
+  "license": "MIT",
+  "repository": "git@github.com:StylusFrost/flureejs-config.git",
+  "author": "Pedro Miguel Díaz Peña <pm.diaz.pena@gmail.com>",
+  "files": [
+    "nyc.json",
+    "cli"
+  ],
+  "bin": {
+    "flureejs-config-coverage": "./cli/coverage.sh"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

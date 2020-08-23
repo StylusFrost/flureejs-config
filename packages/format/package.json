@@ -1,0 +1,19 @@
+{
+  "name": "@flureejs/config-format",
+  "version": "0.1.0",
+  "main": "prettier.json",
+  "license": "MIT",
+  "repository": "git@github.com:StylusFrost/flureejs-config.git",
+  "author": "Pedro Miguel Díaz Peña <pm.diaz.pena@gmail.com>",
+  "files": [
+    "prettier.json",
+    "cli"
+  ],
+  "bin": {
+    "flureejs-config-format": "./cli/format.sh",
+    "flureejs-config-format-fix": "./cli/format-fix.sh"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
